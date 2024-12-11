@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Injury Analysis and Weapon Detection System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </nav>
+    <h1>Injury Analysis and Weapon Detection System</h1>
+  </header>
+
+  <main>
+    <section id="program">
+      <div id="container">
+        <h2>Upload Wound Photo</h2>
+        <form id="woundForm">
+          <label for="photoInput">Select a wound photo:</label>
+          <input type="file" id="photoInput" name="photo" accept="image/*" required>
+          <button type="submit">Identify Weapon</button>
+        </form>
+        <div id="response"></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        We are students of the Faculty of Science, Chemistry and Criminal evidences, working on an innovative project that combines forensic science and technology. Our aim is to create tools that assist in identifying weapons based on wound images using advanced algorithms.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Faculty of Science, Chemistry and Criminal evidences. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
